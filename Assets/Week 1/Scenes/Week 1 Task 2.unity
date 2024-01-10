@@ -300,6 +300,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 796474005}
+  - component: {fileID: 796474006}
   m_Layer: 0
   m_Name: Turret Rotation Point
   m_TagString: Untagged
@@ -323,6 +324,18 @@ Transform:
   - {fileID: 2095386726}
   m_Father: {fileID: 2031464122}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &796474006
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 796474004}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 954168a72d46ff441aa6fd95e222df24, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &832769214
 GameObject:
   m_ObjectHideFlags: 0
