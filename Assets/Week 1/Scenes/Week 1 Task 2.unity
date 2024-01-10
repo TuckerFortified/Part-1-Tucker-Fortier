@@ -291,6 +291,38 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &796474004
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 796474005}
+  m_Layer: 0
+  m_Name: Turret Rotation Point
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &796474005
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 796474004}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.09099999, y: 0.289, z: 0.11297822}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2095386726}
+  m_Father: {fileID: 2031464122}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &832769214
 GameObject:
   m_ObjectHideFlags: 0
@@ -459,8 +491,8 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 506824113}
-  - {fileID: 2095386726}
   - {fileID: 366024696}
+  - {fileID: 796474005}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2095386725
@@ -489,12 +521,12 @@ Transform:
   m_GameObject: {fileID: 2095386725}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.41, y: 0.345, z: 0}
+  m_LocalPosition: {x: 0.501, y: 0.055999994, z: -0.11297822}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 832769215}
-  m_Father: {fileID: 2031464122}
+  m_Father: {fileID: 796474005}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &2095386727
 SpriteRenderer:
