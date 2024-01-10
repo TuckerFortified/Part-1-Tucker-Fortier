@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Mpver : MonoBehaviour
 {
+    public GameObject missilePrefab;
+    public Transform spawn;
     float speed = 3f;
     // Start is called before the first frame update
     void Start()
@@ -16,5 +18,12 @@ public class Mpver : MonoBehaviour
     {
         float direction = Input.GetAxis("Horizontal");
         transform.Translate(direction * speed * Time.deltaTime, 0, 0);
+
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+
+            Instantiate(missilePrefab, spawn.position, spawn.rotation);
+        }
+
     }
 }
