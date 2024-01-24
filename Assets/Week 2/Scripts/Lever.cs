@@ -24,7 +24,7 @@ public class Lever : MonoBehaviour
             door.SetActive(false);
             Debug.Log("f");
         }
-        else (door.activeInHierarchy == false)
+        else 
         {
             door.SetActive(true);
             Debug.Log("t");
