@@ -379,6 +379,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c434e368738fa64ca6376e99c7b6ea4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  floatingObject: {fileID: 2711461099765546263, guid: 896a0ead2d0b6084eae7d3e3d8228a04, type: 3}
+  spawnPoint: {fileID: 33508492}
 --- !u!1 &856585885
 GameObject:
   m_ObjectHideFlags: 0
