@@ -4,6 +4,10 @@ using UnityEngine;
 
 public class Rectangle : MonoBehaviour
 {
+    public GameObject floatingObject;
+    public Transform spawnPoint;
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -18,11 +22,7 @@ public class Rectangle : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        
+        Instantiate(floatingObject, spawnPoint.position, spawnPoint.rotation);
     }
 
-    private void OnTriggerExit2D(Collider2D collision)
-    {
-        
-    }
 }
